@@ -247,25 +247,39 @@
 
 <script>
 	window.onload=function(){
-document.getElementById('box1paragraph').style.animationName='slidelr';
+
+
 document.getElementById('langstick').style.animationName='langside';
 }
 
 document.getElementById('flip1').addEventListener('click',flipme);
 function flipme(e){
   document.getElementById('flipped1').style.transform='rotateY(180deg)';
+  document.getElementById('flipped1').addEventListener('click',flipme1);
+  function flipme1(e){
+  document.getElementById('flipped1').style.transform='rotateY(180deg)'
+
 }
 document.getElementById('flip2').addEventListener('click',flipme2);
 function flipme2(e){
   document.getElementById('flipped2').style.transform='rotateY(180deg)';
+  document.getElementById('flipped2').addEventListener('click',flipme2);
+  function flipme1(e){
+  document.getElementById('flipped2').style.transform='rotateY(180deg)'
 }
 document.getElementById('flip3').addEventListener('click',flipme3);
 function flipme3(e){
   document.getElementById('flipped3').style.transform='rotateY(180deg)';
+  document.getElementById('flipped3').addEventListener('click',flipme3);
+  function flipme3(e){
+  document.getElementById('flipped3').style.transform='rotateY(180deg)'
 }
 document.getElementById('flip4').addEventListener('click',flipme4);
 function flipme4(e){
   document.getElementById('flipped4').style.transform='rotateY(180deg)';
+  document.getElementById('flipped4').addEventListener('click',flipme1);
+  function flipme4(e){
+  document.getElementById('flipped4').style.transform='rotateY(180deg)'
 }
 
 
