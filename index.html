@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name='description' content='Nataly Beauty.Beautician in Limassol.Main page'>
+  <meta name='keywords' content='beautician in Limassol,cyprus,limassol,dance studio moon,spyrou kyprianou,cosmetologist,expert,health,beauty,complex facial cleansing,lifting,toning and relaxing massages,PRX-T33,Bio-Photo,mesotherapy,dermaroll,nanoneedles,rejuvenation therapy with peptids without needles,NanoAsia,machine airbrush,Diode Lipolaser,weight loss,depilation,lamination,tinting,shaping of eyebrows and eyelashes,natalia,kluchereva' >
+	<link rel="stylesheet" href="mainstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Pragati+Narrow:700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap&subset=cyrillic" rel="stylesheet">
+	<script type="text/javascript" src="mainscript.js"></script>
+	<title>Beauty studio in limassol.Nataly beauty</title>
+</head>
+<body>	
+<div id="wrapper">
+
+
+
+
+
+<div id="langattr">
+      <h2 onclick='hidela()' id='engl'>English</h2>
+      <h2><a href='ru/ruindex.html' lang='ru'>Русский</a></h2>
+</div>
+
+
+<div id="langstick">
+      <a  href='ru/ruindex.html' lang='ru'>РУС</a>
+</div>
+
+
+
+
+<div id="wrapperinner">
+
+
+
+
+
+
+
+
+
+<!----------------------------header------------------------------------------------------------>
+
+
+<header class='fadeinc'>
+
+			
+
+<div class='fadeinc' id="logo">
+	<img  src="images/logo1.jpg" alt="NK Beauty">
+
+</div><!-----logocloser---------------->
+
+
+
+<div class='fadeinc' id="logobox">
+	<p id="address1">Spyrou Kyprianou</p>
+
+
+    <p id="address2">Limassol,Cyprus</p>
+
+
+    <p id="address3">4040,Dance studio Moon</p>
+</div><!---------------------------logobox closer--------------------------->
+
+
+
+<nav class='fadeinc'>
+<div id="menu">
+<ul>
+  <li><a id='active'  href="index.html">NK Beauty</a></li>
+  <li><a href="service.html">Services</a></li>
+  <li><a href="expert.html">Expert</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a  href="contact.html">Contacts</a></li>  
+</ul>
+
+
+</div><!----------------------div menu closer---------------------->
+</nav>
+
+
+<!------------ghosted----------------------------------->
+<div class='fadeinc' id="ghosted1"></div>
+<div class='fadeinc' id="ghosted2"></div>
+<!--^^^^^^^^^^^^^^^^^^^^^^^^close ghosted^^^^^^^^^^-->
+
+
+
+
+
+
+
+</header><!-------------------------headercloser----------------------------------------------------------->
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------main---------------------------------------------------->
+<main class='fadeinc'>
+	<section>
+        <div id='banner'>
+	      <img  src="images/banner.jpg" alt="NK Beauty">
+        </div>	
+    </section>  
+
+
+
+
+<!-------------slideshow--------------------------->
+    <section>
+       <div class="slideshow-container">
+
+          <div class="mySlides fade">
+             
+             <img src="images/slide1.jpeg" style="width:100%">
+             
+          </div>
+
+          <div class="mySlides fade">
+             
+             <img src="images/slide2.jpg" style="width:100%">
+             
+          </div>
+
+       </div><br>
+
+       
+    </section>
+
+
+
+
+
+
+    <section>
+    	<div id="content">
+    		<h1>-&nbsp;Nataly Beauty&nbsp;-</h1>
+    		<p>BEAUTY - (byoo-dee) noun</p>
+    		<ol>
+    			<li>The quality present in a thing or person that gives intense pleasure or deep satisfaction to the mind, whether arising from sensory manifestations (as shape, color, sound)</li>
+    			<li>A meaningful design or pattern, or something else (as a personality in which high spiritual qualities are manifest)</li>
+    			<li>NB, all of the above</li>
+    		</ol>
+    		<p>-&nbsp;YOU ARE BEAUTIFUL&nbsp;-</p>
+    	</div>
+    </section>
+
+
+
+    <section>
+        <div id='banner'>
+	      <img  src="images/banner.jpg" alt="NK Beauty">
+        </div>	
+    </section> 
+
+</main>
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------footer-------------------------------------------->
+
+
+
+<footer>
+	<h2>Nataly Beauty&nbsp;/&nbsp;/&nbsp;&copy;2020</h2>
+
+<!------------logo---------------->
+		<div id="unlogo">	
+		     <span>web development studio</span>&nbsp;
+		     <h1>Baron <span class='highlight'>Shell</span></h1>
+	    </div>
+        <!--^^^^^^^^^^^^^^^logo^^^^^^^^^^-->
+
+
+</footer>
+
+
+
+
+</div><!--------------------------------------------wrapper innercloser---------------------------->		
+</div><!---------------------------------wrapper closer------------------------------------------------------>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-------------script-------------------------->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+ 
+  slides[slideIndex-1].style.display = "block";  
+  
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+window.onload=function(){
+  document.getElementById('langattr').style.animationName='appearla';
+ }
+ 
+
+
+
+function hidela(){
+   document.getElementById('langattr').style.animationName='disla';
+}
+document.getElementById('engl').addEventListener('click',function(e){
+  document.getElementById('langstick').style.animationName='langside';
+})
+
+
+
+var hasVisited = sessionStorage.getItem('washere');
+
+if ( ! hasVisited ) {
+ 
+sessionStorage.setItem('washere', true);
+}else if(hasVisited){
+document.getElementById('langattr').style.display='none';
+document.getElementById('langstick').style.opacity='1';
+}
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
