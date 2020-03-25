@@ -1175,11 +1175,11 @@ margin: 0 auto;
 #rightbtng{
 	right: 3%;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -1187,7 +1187,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -1195,29 +1195,29 @@ color: white;
 	font-size: 12px;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
 
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -1231,7 +1231,7 @@ color: white;
 
 
 @media(max-width: 896px) and (max-height:414px){
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -1286,11 +1286,11 @@ margin: 0 auto;
 #rightbtng{
 	right: 3%;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -1298,7 +1298,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -1306,24 +1306,24 @@ color: white;
 	font-size: 15px;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -1419,11 +1419,11 @@ margin: 0 auto;
 #rightbtng{
 	right: 3%;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -1431,7 +1431,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -1439,23 +1439,24 @@ color: white;
 	font-size: 15px;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
-lose:active {
+}
+ #close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -1475,7 +1476,7 @@ lose:active {
 #logobox p{
 	font-size: 14px;
 }
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(1.5) translate(0,-30px);
     -ms-transform: scale(1.5) translate(0,-30px);
     -o-transform: scale(1.5) translate(0,-30px);
@@ -1517,7 +1518,7 @@ lose:active {
 }
 
 
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -1592,11 +1593,11 @@ margin: 0 auto;
 #rightbtng{
 	right: 3%;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -1604,7 +1605,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -1612,24 +1613,24 @@ color: white;
 	font-size: 13px;
 }
 
-#certs img:active {
-    -webkit-transform: scale(2) translate(-30px,-30px);
-    -ms-transform: scale(2) translate(-30px,-30px);
-    -o-transform: scale(2) translate(-30px,-30px);
-    transform: scale(2) translate(-30px,-30px);
+#certs img:focus {
+    -webkit-transform: scale(2) translate(0,-30px);
+    -ms-transform: scale(2) translate(0,-30px);
+    -o-transform: scale(2) translate(0,-30px);
+    transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -1674,7 +1675,7 @@ color: white;
 }
 
 
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -1750,11 +1751,11 @@ margin: 0 auto;
 #rightbtng{
 	right: 3%;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -1770,24 +1771,24 @@ color: white;
 	font-size: 13px;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -1833,7 +1834,7 @@ color: white;
 	.unbtnsubmit{
 		margin-top: 110px!important;
 	}
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(1.5) translate(0,-30px);
     -ms-transform: scale(1.5) translate(0,-30px);
     -o-transform: scale(1.5) translate(0,-30px);
@@ -1887,7 +1888,7 @@ color: white;
 .unbtnsubmit{
 	margin-top: 105px!important;
 }
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(1.5) translate(0,-30px);
     -ms-transform: scale(1.5) translate(0,-30px);
     -o-transform: scale(1.5) translate(0,-30px);
@@ -1926,7 +1927,7 @@ color: white;
 #experttext{
 	padding: 0;
 }
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(1.5) translate(0,-30px);
     -ms-transform: scale(1.5) translate(0,-30px);
     -o-transform: scale(1.5) translate(0,-30px);
@@ -2004,7 +2005,7 @@ color: white;
 }
 
 
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -2098,11 +2099,11 @@ margin: 0 auto;
 #langattr{
 	width: 25vw;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -2110,7 +2111,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -2124,24 +2125,24 @@ color: white;
 	margin-top: 10px!important;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -2366,11 +2367,11 @@ margin: 0 auto;
 #langattr{
 	width: 25vw;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -2378,7 +2379,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -2392,24 +2393,24 @@ color: white;
 	margin-top: 10px!important;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -2543,7 +2544,7 @@ padding:0 10px;
 }
 
 
-#active:active {
+#active:focus {
     color: black !important;
     border-bottom: 2px solid rgba(0,0,0,.1);
 }
@@ -2637,11 +2638,11 @@ margin: 0 auto;
 #langattr{
 	width: 25vw;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -2649,7 +2650,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -2663,24 +2664,24 @@ color: white;
 	margin-top: 10px!important;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }
@@ -2908,11 +2909,11 @@ margin: 0 auto;
 #langattr{
 	width: 25vw;
 }
-#langattr h2:active{
+#langattr h2:focus{
 background-color: #351f25;
 color: white;
 }
-#langstick:active{
+#langstick:focus{
 	background-color: #351f25;
 color: white;
 }
@@ -2920,7 +2921,7 @@ color: white;
 	font-size: 15px;
 }
 
-.flip-card:active .flip-card-inner {
+.flip-card:focus .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -2934,24 +2935,24 @@ color: white;
 	margin-top: 10px!important;
 }
 
-#certs img:active {
+#certs img:focus {
     -webkit-transform: scale(2) translate(0,-30px);
     -ms-transform: scale(2) translate(0,-30px);
     -o-transform: scale(2) translate(0,-30px);
     transform: scale(2) translate(0,-30px);
 }
-.close:active {
+.close:focus {
     opacity: 1;
 }
-#rightbtng:active {
+#rightbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#leftbtng:active {
+#leftbtng:focus {
     background-color: rgba(255,255,255,0.9);
     color: #5c5c5c;
 }
-#btnsubmit:active {
+#btnsubmit:focus {
     background-color: #272727;
     color: rgba(255,255,255,1);
 }

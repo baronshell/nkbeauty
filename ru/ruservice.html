@@ -108,14 +108,14 @@
     <section id="servicecontent">
       <h2>Услуги</h2>
       <article id='promoboxes'>
-        <div class="flip-card">
-              <div class="flip-card-inner">
+        <div id='flip1' class="flip-card">
+              <div id='flipped1' class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/suka5.jpg" alt="non-injective bios"  style="width:100%;height:100%;">
                 </div>
                 <div class="flip-card-back">
                   <h3>Неинъективная биоревитализация NanoAsia</h3>
-                  <p>Неинъективная биоревитализация основана на введении низкомолекулярной гиалуроновой кислоты без инъекций. Это эффективный метод омоложения кожи и нормализации баланса влаги. Гиалуроновая кислота обеспечивает питание кожи и является важным компонентом для синтеза коллагена кожи. Гиалуроновая кислота позволяет достичь значительных результатов в омоложении кожи и признана наиболее эффективным методом неинъекционной ревитализации</p>
+                  <p id='longpser1'>Неинъективная биоревитализация основана на введении низкомолекулярной гиалуроновой кислоты без инъекций. Это эффективный метод омоложения кожи и нормализации баланса влаги. Гиалуроновая кислота обеспечивает питание кожи и является важным компонентом для синтеза коллагена кожи. Гиалуроновая кислота позволяет достичь значительных результатов в омоложении кожи и признана наиболее эффективным методом неинъекционной ревитализации</p>
                   <a style='text-decoration: none;margin-top: 20px' href='contact.html' id='btnsubmit'>Записаться</a>
                     </div>
               </div>
@@ -124,14 +124,14 @@
 
 
 
-            <div class="flip-card">
-              <div class="flip-card-inner">
+            <div id='flip2' class="flip-card">
+              <div  id='flipped2' class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/suka6.jpg" alt="non-injective bios"  style="width:100%;height:100%;">
                  </div>
                 <div class="flip-card-back">
                   <h3>PRX-T33</h3>
-                  <p>PRX T33 это высокоэффективная процедура пилинга, которая содержит комбинацию трихлоруксусной кислоты (ТСА), перекиси водорода и койевой кислоты. Это тип пилинга, который не влияет на внешний слой кожи, но работает непосредственно в дерме.В результате эффект отшелушивания действует изнутри без  эпидермального пилинга, что делает его популярным в качестве пилинга без простоев. Это помогает стимулировать выработку коллагена для роста новых клеток кожи. Рекомендуется курс из 5 процедур, который проводится один раз в неделю. Вы  сразу же заметите более плотную, яркую и молодую кожу с первого сеанса</p>
+                  <p id='longpser2'>PRX T33 это высокоэффективная процедура пилинга, которая содержит комбинацию трихлоруксусной кислоты (ТСА), перекиси водорода и койевой кислоты. Это тип пилинга, который не влияет на внешний слой кожи, но работает непосредственно в дерме.В результате эффект отшелушивания действует изнутри без  эпидермального пилинга, что делает его популярным в качестве пилинга без простоев. Это помогает стимулировать выработку коллагена для роста новых клеток кожи. Рекомендуется курс из 5 процедур, который проводится один раз в неделю. Вы  сразу же заметите более плотную, яркую и молодую кожу с первого сеанса</p>
                   <a style='text-decoration: none;margin-top: 10px' href='contact.html' id='btnsubmit'>Записаться</a>
                     </div>
               </div>
@@ -140,8 +140,8 @@
 
 
 
-            <div class="flip-card">
-              <div class="flip-card-inner">
+            <div id='flip3' class="flip-card">
+              <div id='flipped3' class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/suka7.jpg" alt="non-injective bios"  style="width:100%;height:100%;">
                 </div>
@@ -154,8 +154,8 @@
             </div>
 
 
-            <div class="flip-card">
-              <div class="flip-card-inner">
+            <div id='flip4' class="flip-card">
+              <div id='flipped4' class="flip-card-inner">
                 <div class="flip-card-front">
                   <img src="images/suka8.jpg" alt="non-injective bios"  style="width:100%;height:100%;">
                 </div>
@@ -244,6 +244,27 @@
 document.getElementById('box1paragraph').style.animationName='slidelr';
 
 }
+
+
+
+document.getElementById('flip1').addEventListener('click',flipme);
+function flipme(e){
+  document.getElementById('flipped1').style.transform='rotateY(180deg)';
+}
+document.getElementById('flip2').addEventListener('click',flipme2);
+function flipme2(e){
+  document.getElementById('flipped2').style.transform='rotateY(180deg)';
+}
+document.getElementById('flip3').addEventListener('click',flipme3);
+function flipme3(e){
+  document.getElementById('flipped3').style.transform='rotateY(180deg)';
+}
+document.getElementById('flip4').addEventListener('click',flipme4);
+function flipme4(e){
+  document.getElementById('flipped4').style.transform='rotateY(180deg)';
+}
+
+
 </script>
 
 
